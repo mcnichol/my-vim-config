@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!my_vim_config.vim
+!autoload/
+!bundle/
+!bundle/**
