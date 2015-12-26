@@ -3,5 +3,6 @@
 !.gitignore
 !my_vim_config.vim
 !autoload/
+!autoload/pathogen.vim
 !bundle/
 !bundle/**
