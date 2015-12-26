@@ -1,1 +1,3 @@
-#my_vim_config 
+#Windows VIM Configuration
+
+##Place .vim file in $VIMRUNTIME
