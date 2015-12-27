@@ -9,7 +9,7 @@
 ViM configuration file for the Windows OS.  This leverages Tim Popes Pathogen for simplifying runtimepath management.   
 
 ## Setup
-* Install VIM for Windows [PC:MS-DOS and MS-Windows](http://www.vim.org/download.php) Version
+* Install VIM for Windows (Select **PC:MS-DOS and MS-Windows** Version) from [ViM Website](http://www.vim.org/download.php) 
 * 
 
 ## Installation
