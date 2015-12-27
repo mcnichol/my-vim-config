@@ -6,7 +6,6 @@ execute pathogen#infect()
 set number " Add Line Numbers to Editor
 set lines=40 columns=100
 
-
 " GVIM CONFIG
 if has("gui_running")
    if has("gui_gtk2")
@@ -25,16 +24,19 @@ else     "Using Console Version
 endif
 
 " MAPPING AND BEHAVIOUR
-map <S-Tab> :noh<CR> " Map Clear Highlight to Shift-Tab
+" Map Clear Highlight to Shift-Tab
+map <S-Tab> :noh<CR>
 
 " TAB BEHAVIOUR 
 set tabstop=3 softtabstop=0 expandtab shiftwidth=3 smarttab 
 
 " VIM-AIRLINE CONFIG
-let g:airline#extensions#tabline#enabled = 1
-set laststatus=2 "Display the Status Line always
+let g:airline#extensions#tabline#enabled  = 1
+"let g:airline_theme                       = 'powerlineish'
+"let g:airline_enable_branch               = 1
+"let g:airline_enable_syntastic            = 1
+set laststatus=2   "Display the Status Line always
 
 " GRUVBOX CONFIG
 set background=dark     " Setting Dark Mode
-" set background=light    " Setting Light Mode
-
+"set background=light    " Setting Light Mode
