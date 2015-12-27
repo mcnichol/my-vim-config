@@ -1,3 +1,12 @@
 #Windows VIM Configuration
 
-##Place .vim file in $VIMRUNTIME
+#Table of Cntents
+1. [Overview](#overview)
+2. [Installation](#installation)
+3. [Modifying](#modifying)
+
+## Overview
+
+## Installation
+
+## MOdifying
