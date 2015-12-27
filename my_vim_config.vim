@@ -3,8 +3,9 @@ execute pathogen#infect()
 
 " GENERAL EDITOR CONFIG
 " --------------------
-set number " Add Line Numbers to Editor
-set lines=40 columns=100
+set number                 " Add Line Numbers to Editor
+set lines=40 columns=100   " Medium size-ish
+set noeb vb t_vb=          " Remove Errorbell and set visual bell to empty
 
 " GVIM CONFIG
 if has("gui_running")
@@ -35,7 +36,25 @@ let g:airline#extensions#tabline#enabled  = 1
 "let g:airline_theme                       = 'powerlineish'
 "let g:airline_enable_branch               = 1
 "let g:airline_enable_syntastic            = 1
+" vim-powerline symbols
+let g:airline_left_sep          = '>'
+"let g:airline_left_alt_sep      = ''
+let g:airline_right_sep         = '<'
+"let g:airline_right_alt_sep     = ''
+"let g:airline_branch_prefix     = ''
+"let g:airline_readonly_symbol   = ''
+"let g:airline_linecolumn_prefix = ''
 set laststatus=2   "Display the Status Line always
+
+" SYNTASTIC CONFIG
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " GRUVBOX CONFIG
 set background=dark     " Setting Dark Mode
