@@ -11,3 +11,6 @@ map <S-Tab> :noh<CR> " Map Clear Highlight to Shift-Tab
 
 " TAB BEHAVIOUR 
 set tabstop=3 softtabstop=0 expandtab shiftwidth=3 smarttab 
+
+" VIM-AIRLINE CONFIG
+set laststatus=2 "Display the Status Line always
