@@ -3,9 +3,13 @@ execute pathogen#infect()
 
 " GENERAL EDITOR CONFIG
 " --------------------
-set number                 " Add Line Numbers to Editor
-set lines=40 columns=100   " Medium size-ish
-set noeb vb t_vb=          " Remove Errorbell and set visual bell to empty
+set number                                         " Add Line Numbers to Editor
+set lines=40 columns=100                           " Medium size-ish screen
+set noeb vb t_vb=                                  " Remove Errorbell and set visual bell to empty
+
+" FILE HANDLING
+" --------------------
+au BufRead,BufNewFile *.json set filetype=json     " Enable JSON filetype detection
 
 " GVIM CONFIG
 if has("gui_running")
