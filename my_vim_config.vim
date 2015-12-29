@@ -42,6 +42,7 @@ if has("gui_running")
       set guioptions-=m       " Remove Menu Bar
       set guioptions-=T       " Remove Tool Bar
       set guioptions-=r       " Remove Right-Hand Scroll Bar 
+      set guioptions-=L       " Remove Left-Hand Scroll Bar 
    endif
 else     "Using Console Version
    colorscheme pablo

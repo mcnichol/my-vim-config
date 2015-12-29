@@ -6,3 +6,6 @@
 !autoload/pathogen.vim
 !bundle/
 !bundle/**
+!.fonts/
+!.fonts/**
+!.fonts/**/*
