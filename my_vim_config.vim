@@ -1,4 +1,3 @@
-
 " ==================
 " = PLUGIN MANAGER =
 " ==================
@@ -39,7 +38,7 @@ if has("gui_running")
       colorscheme gruvbox     " Gruvbox Plugin Colorscheme
       "set guifont=Fantasque\ Sans\ Mono:h11                "Requires Fantasque Sans Mono https://github.com/belluzj/fantasque-sans
       "set guifont=Fira\ Mono\ for\ Powerline:h11
-      set guifont=Meslo\ LG\ S\ for\ Powerline:h12          "Best UTF-8 Encoding Support i.e.(Left Triple Arrow: ⇚)
+      set guifont=Meslo\ LG\ S\ for\ Powerline:h11          "Best UTF-8 Encoding Support i.e.(Left Triple Arrow: ⇚)
       set guioptions-=m       " Remove Menu Bar
       set guioptions-=T       " Remove Tool Bar
       set guioptions-=r       " Remove Right-Hand Scroll Bar 
@@ -80,8 +79,7 @@ let g:javascript_conceal_super      = "Ω"
 " ======================
 let g:airline#extensions#tabline#enabled  = 1
 "let g:airline_theme                       = 'powerlineish'
-"let g:airline_enable_branch               = 1
-"let g:airline_enable_syntastic            = 1
+let g:airline_enable_branch               = 1
 let g:airline_powerline_fonts             = 1
 
 " vim-powerline symbols
@@ -112,3 +110,8 @@ let g:syntastic_check_on_wq = 0
 " ==================
 set background=dark     " Setting Dark Mode
 "set background=light    " Setting Light Mode
+
+" ===================
+" = NERDTree Config =
+" ===================
+let NERDTreeShowHidden=1
