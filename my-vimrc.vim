@@ -6,7 +6,8 @@ execute pathogen#infect()
 " =========================
 " = GENERAL EDITOR CONFIG =
 " =========================
-set syntax on					   " Syntax highlighting on
+set backspace=indent,eol,start                     " Correct Backspacing issues
+syntax on                                          " Add Syntax Highlighting 
 set number                                         " Add Line Numbers to Editor
 set lines=40 columns=100                           " Medium size-ish screen
 set noerrorbells visualbell t_vb=                  " Remove V/E-Bells
@@ -58,7 +59,7 @@ map <S-Tab> :noh<CR>
 " =================
 " = TAB BEHAVIOUR =
 " =================
-set tabstop=3 softtabstop=0 expandtab shiftwidth=3 smarttab 
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab 
 
 " +++++++++++++++++++++++
 " +PLUGIN CONFIGURATIONS+

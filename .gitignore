@@ -1,7 +1,7 @@
 *
 
 !.gitignore
-!my_vim_config.vim
+!*.vim
 !autoload/
 !autoload/pathogen.vim
 !bundle/
