@@ -13,5 +13,9 @@ ViM configuration file for the Windows OS.  This leverages Tim Popes Pathogen fo
 * 
 
 ## Installation
+git clone git@github.com:mcnichol/my-vim-config.git
+mv autoload  ~/.vimrc
+mv bundle ~/.vimrc
+mv vim-config.vim ~/.vimrc
 
-## MOdifying
+## Modifying
