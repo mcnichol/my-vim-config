@@ -6,7 +6,7 @@ This leverages Tim Popes [Pathogen](https://github.com/tpope/vim-pathogen) for s
 
 
 #Table of Contents
-1. [Setup Instructions](#)
+1. [Setup Instructions](#setup)
     - [Windows](#windows)
         - [Dependencies](#win-deps)
         - [Installation](#win-install)
@@ -16,24 +16,26 @@ This leverages Tim Popes [Pathogen](https://github.com/tpope/vim-pathogen) for s
 2. [Contribute](#contribute)
 3. [Notes](#notes)
 
-# <a id="windows"></a>Setup for Windows
+# <a id="setup"></a>Setup Instructions
 
-## <a id="win-deps"></a>Dependencies
+## <a id="windows"></a>Windows
+
+### <a id="win-deps"></a>Dependencies
 * VIM for Windows (Select **PC:MS-DOS and MS-Windows** Version) from [ViM Website](http://www.vim.org/download.php) 
 
-## <a id="win-install"></a>Windows Installation
+## <a id="win-install"></a>Installation
 * `git clone git@github.com:mcnichol/my-vim-config.git`
 * `cd my-vim-config`
 * `mv autoload  ~/.vimrc`
 * `mv bundle ~/.vimrc`
 * `mv vim-config.vim ~/.vimrc`
 
-# <a id="mac"></a>Setup for Mac
+## <a id="mac"></a>Mac/OSX
 
 ## <a id="mac-deps"></a>Dependencies
 * TODO: Dependencies for Mac Installation
 
-## <a id="mac-install"></a>Mac Installation
+## <a id="mac-install"></a>Installation
 * `git clone git@github.com:mcnichol/my-vim-config.git`
 
 ## <a id="contribute"></a>Contributing
