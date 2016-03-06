@@ -6,6 +6,7 @@ execute pathogen#infect()
 " =========================
 " = GENERAL EDITOR CONFIG =
 " =========================
+set syntax on					   " Syntax highlighting on
 set number                                         " Add Line Numbers to Editor
 set lines=40 columns=100                           " Medium size-ish screen
 set noerrorbells visualbell t_vb=                  " Remove V/E-Bells
