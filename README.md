@@ -34,10 +34,10 @@ This leverages Tim Popes [Pathogen](https://github.com/tpope/vim-pathogen) for s
 * `mv bundle ~/.vimrc`
 * `mv vim-config.vim ~/.vimrc`
 
-###(a id="win-issues"></a>Issues
+###<a id="win-issues"></a>Issues
 * TODO: List out known issues with Windows Installation
 
-###(a id="win-faq"></a>FAQ
+###<a id="win-faq"></a>FAQ
 * TODO: List out frequently asked questions with Windows Installation
 
 ## <a id="mac"></a>Mac/OSX
@@ -48,10 +48,10 @@ This leverages Tim Popes [Pathogen](https://github.com/tpope/vim-pathogen) for s
 ###<a id="mac-install"></a>Installation
 * `git clone git@github.com:mcnichol/my-vim-config.git`
 
-###(a id="mac-issues"></a>Issues
+###<a id="mac-issues"></a>Issues
 * TODO: List out known issues with Mac/OSX Installation
 
-###(a id="mac-faq"></a>FAQ
+###<a id="mac-faq"></a>FAQ
 * TODO: List out frequently asked questions with Mac/OSX Installation
 
 ## <a id="contribute"></a>Contributing
