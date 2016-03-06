@@ -1,11 +1,11 @@
 #My Vim Configuration
-## <a id="overview"></a>Overview
+##<a id="overview"></a>Overview
 ViM configuration file for all of my environments.  The motivation behind this is to deal with the multi-platform development world we live in where one must switch between 
 
 This leverages Tim Popes [Pathogen](https://github.com/tpope/vim-pathogen) for simplifying `runtimepath` management.
 
 
-#Table of Contents
+##Table of Contents
 1. [Setup Instructions](#setup)
     - [Windows](#windows)
         - [Dependencies](#win-deps)
@@ -16,14 +16,14 @@ This leverages Tim Popes [Pathogen](https://github.com/tpope/vim-pathogen) for s
 2. [Contribute](#contribute)
 3. [Notes](#notes)
 
-# <a id="setup"></a>Setup Instructions
+#<a id="setup"></a>Setup Instructions
 
-## <a id="windows"></a>Windows
+##<a id="windows"></a>Windows
 
-### <a id="win-deps"></a>Dependencies
+###<a id="win-deps"></a>Dependencies
 * VIM for Windows (Select **PC:MS-DOS and MS-Windows** Version) from [ViM Website](http://www.vim.org/download.php) 
 
-## <a id="win-install"></a>Installation
+###<a id="win-install"></a>Installation
 * `git clone git@github.com:mcnichol/my-vim-config.git`
 * `cd my-vim-config`
 * `mv autoload  ~/.vimrc`
@@ -32,10 +32,10 @@ This leverages Tim Popes [Pathogen](https://github.com/tpope/vim-pathogen) for s
 
 ## <a id="mac"></a>Mac/OSX
 
-## <a id="mac-deps"></a>Dependencies
+###<a id="mac-deps"></a>Dependencies
 * TODO: Dependencies for Mac Installation
 
-## <a id="mac-install"></a>Installation
+###<a id="mac-install"></a>Installation
 * `git clone git@github.com:mcnichol/my-vim-config.git`
 
 ## <a id="contribute"></a>Contributing
