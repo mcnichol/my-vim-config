@@ -19,3 +19,8 @@ mv bundle ~/.vimrc
 mv vim-config.vim ~/.vimrc
 
 ## Modifying
+
+## Notes
+* One key thing to notice with this repo is it uses a whitelist approach for files in **.gitignore**.  If new filetypes are folders are introduced, they must be manually included.  This approach is an attempt to allow for the cross functional use of Operating Systems while avoiding issues with Windows swap files, Mac DS_Store, etc.  This may change in the future.
+
+
